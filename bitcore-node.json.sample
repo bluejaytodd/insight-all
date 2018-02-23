@@ -1,0 +1,18 @@
+{
+  "network": "livenet",
+  "port": 3067,
+  "services": [
+    "bitcoind",
+    "insight-api",
+    "insight-ui",
+    "web"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "spawn": {
+        "datadir": "/home/bitcoincandy/.bitcoincandy",
+	"exec" : "/home/bitcoincandy/null"
+      }
+    }
+  }
+}
